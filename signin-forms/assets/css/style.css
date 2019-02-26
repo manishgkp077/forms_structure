@@ -1,0 +1,79 @@
+/* global classes start */
+.image_responsive {
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 50%;
+	overflow: hidden;	
+}
+/* global classes end */
+
+body {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: 'Inconsolata', monospace;
+}
+.site-main {
+	max-width: 400px;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid;
+}
+.avatar-section {
+	margin: -120px auto 40px;
+}
+.avatar {
+	width: 100%;
+}
+.form-section {
+	background-color: #000;
+	color: #fff;
+	width: 400px;
+	height: 450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 70px 30px;
+	box-sizing: border-box;
+}
+.form-section label, .form-section input, .form-section a {
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+}
+.form-section label {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Inconsolata', monospace;
+	text-transform: capitalize;
+}
+.form-section input[type='text'] {
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	margin: 6px auto 30px;
+    color: #fff;
+    padding: 0px 0px 5px 0px;
+}
+.form-section input[type='submit'] {
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 10px 5px;
+	border-radius: 1rem;
+	margin-top: 45px;
+	margin-bottom: 35px;
+	background-color: #3232ff;
+}
+.form-section input[type='submit']:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+.form-section form a {
+	color: #1919ff;
+	margin: 5px 0px 0px;
+	text-decoration: none;
+}
